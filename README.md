@@ -1,10 +1,25 @@
 # BQSLanding
 
-Landing page para la pretemporada 2018.
+Landing page para la Pretemporada 2018.
+
+## PHP - Estructura
+
+index.php: Centraliza las vistas y maneja el formulario. También almacena algunas variables.
+
+views/head.view.php: Tiene todo el HTML del HEAD de la Web.
+
+views/body.view.php: Tiene el contenido de la Web. (Incluye el Modal).
+
+views/footer.view.php: Tiene el footer de la Web.
+
+### HTML
+
+Para el manejo de clases dentro del mismo HTML se utiliza la metodología BEM (Bloque-Elemento-Modificador), con la respectiva marca.
 
 ### CSS
 
 PostCSS: Gulp, Nested, Import, CSSWring, CSSNext, MQPacker y BrowserSync. Todos compatibles con CSS.
+
 Librerías de NPM: gulp-postcss, postcss-nested, postcss-import, csswring, postcss-cssnext, css-mqpacker, browser-sync.
 
 ### Breakdown CSS 

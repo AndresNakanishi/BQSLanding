@@ -15,14 +15,3 @@ function Hide(){
 	$BQSModal.style.animation = 'modalOut .8s forwards';
 	$BQSOverlay.classList.remove('active');
 };
-
-$(function(){
-	$('.BQSServices-prices-cta-link').click(function(){
-		var target = $(this.hash);
-
-		$('html,body').animate({
-			scrollTop: target.offset().top
-		}, 1000); 
-	});
-});
-

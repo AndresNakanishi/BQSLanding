@@ -88,7 +88,7 @@
             </div>
             <div class="BQSServices-another">
               <div class="BQSServices-prices-price-container">
-                <p class="BQSServices-prices-price">$ 14.000</p>
+                <p class="BQSServices-prices-price"><?php echo $temporada; ?></p>
               </div>
               <div class="BQSServices-prices-cta-container">
                 <p class="BQSServices-prices-cta"><a class="BQSServices-prices-cta-link" href="#Home">Consultar</a></p>
@@ -111,7 +111,7 @@
             </div>
             <div class="BQSServices-another">
               <div class="BQSServices-prices-price-container">
-                <p class="BQSServices-prices-price">$ 10.000</p>
+                <p class="BQSServices-prices-price"><?php echo $enero; ?></p>
               </div>
               <div class="BQSServices-prices-cta-container">
                 <p class="BQSServices-prices-cta"><a class="BQSServices-prices-cta-link" href="#Home">Consultar</a></p>
@@ -131,7 +131,7 @@
             </div>
             <div class="BQSServices-another">
               <div class="BQSServices-prices-price-container">
-                <p class="BQSServices-prices-price">$ 9.000</p>
+                <p class="BQSServices-prices-price"><?php echo $febrero; ?></p>
               </div>
               <div class="BQSServices-prices-cta-container">
                 <p class="BQSServices-prices-cta"><a class="BQSServices-prices-cta-link" href="#Home">Consultar</a></p>
@@ -154,7 +154,7 @@
             </div>
             <div class="BQSServices-another">
               <div class="BQSServices-prices-price-container">
-                <p class="BQSServices-prices-price">$ 7.000</p>
+                <p class="BQSServices-prices-price"><?php echo $weekends; ?></p>
               </div>
               <div class="BQSServices-prices-cta-container">
                 <p class="BQSServices-prices-cta"><a class="BQSServices-prices-cta-link" href="#Home">Consultar</a></p>

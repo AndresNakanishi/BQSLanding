@@ -1,5 +1,11 @@
 <?php 
 
+// Pricing
+$temporada = '$ 14.000';
+$enero = '$ 8.500';
+$febrero = '$ 8.000';
+$weekends = '$ 7.000';
+
 if (isset($_POST['submit'])) {
 	$errors = '';
 	$sended = '';
