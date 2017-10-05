@@ -1,6 +1,7 @@
 const $BQSModalHide = document.getElementById('hide-modal');
 const $BQSModal = document.getElementById('BQSModal');
 const $BQSOverlay = document.getElementById('BQSOverlay');
+const $BQSMenu = document.getElementById('BQSMenu');
 
 $BQSModalHide.addEventListener('click',(event) => {
 	Hide();
@@ -15,3 +16,7 @@ function Hide(){
 	$BQSModal.style.animation = 'modalOut .8s forwards';
 	$BQSOverlay.classList.remove('active');
 };
+
+function HideDrop(){
+	$BQSMenu.style.display = 'none';
+}

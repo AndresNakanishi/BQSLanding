@@ -5,6 +5,14 @@
         <figure class="BQSHero-logo">
           <img src="img/logo.png" alt="Las Brusquitas Miramar">
         </figure>
+        <div class="BQSHero-dropdown">
+          <button class="BQSHero-dropdown-btn"><img class="BQSHero-dropdown-img" src="img/menu.png" alt="Menu de Hamburguesa"></button>
+            <div class="BQSHero-dropdown-content" id="BQSMenu">
+              <a onclick="HideDrop()" href="#Servicios" class="BQSHero-dropdown-link">Servicios</a>
+              <a onclick="HideDrop()" href="#Experiencias" class="BQSHero-dropdown-link">Experiencias</a>
+            </div>
+          </ul>
+        </div>
       </header>
       <section class="BQSHero-section">
         <article class="BQSHero-article">
@@ -18,6 +26,12 @@
           <p class="BQSHero-article-copy">
             Entre Mar del Plata y Miramar, emplazado en 25 hect&aacute;reas de m&eacute;danos, amplias playas y mar seguro para los ni&ntilde;os, encontr&aacute;s este hist&oacute;rico Balneario ideal para vacacionar en familia.
           </p>
+          <div class="BQSHero-article-know">
+            <a class="BQSHero-article-know-container" href="#Servicios">
+            <p class="BQSHero-article-know-copy">Conoc&eacute; M&aacute;s</p>
+            <img src="img/arrowdown.png" alt="Flecha apuntando abajo">
+            </a>
+          </div>
         </article>
         <div class="BQSHero-form-container">
           <h4 class="BQSHero-form-title">

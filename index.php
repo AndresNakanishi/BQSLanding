@@ -1,6 +1,6 @@
 <?php 
 
-// Pricing
+// --- PRECIOS
 $temporada = '$ 14.000';
 $enero = '$ 8.500';
 $febrero = '$ 8.000';
@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
 		$mensaje_preparado .= "Celular: $cellphone \n";
 		$mensaje_preparado .= "Mensaje: " . $message;
 
-		//mail($sentTo, $subject, $mensaje_preparado);
+		mail($sentTo, $subject, $mensaje_preparado);
 		$sended = 'true';
 	}
 }
