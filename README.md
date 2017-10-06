@@ -31,6 +31,11 @@ Librerías de NPM: gulp-postcss, postcss-nested, postcss-import, csswring, postc
 * [MQPacker](https://github.com/hail2u/node-css-mqpacker) - Dependencia para combinar los media queries en el fichero final.
 * [BrowserSync](https://www.browsersync.io/) - Dependencia para similar a Express.
 
+### Javascript
+
+BQS.js: Funciones del Modal
+BQSQ.js: SmoothScrolling
+
 ## Autores
 
 * **Andrés Nakanishi**
