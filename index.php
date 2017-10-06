@@ -1,5 +1,12 @@
 <?php 
 
+// --- METADATA
+
+$pageTitle = 'BQS - Pretemporada 2018';
+$pageDesc = 'Entre Mar del Plata y Miramar, emplazado en 25 hect&aacute;reas de m&eacute;danos, amplias playas y mar seguro para los ni&ntilde;os';
+$pageThumb = 'http://www.lasbrusquitas.club/img/bg-herox1.jpg';
+$pageUrl = 'http://www.lasbrusquitas.club/';
+
 // --- PRECIOS
 $temporada = '$ 14.000';
 $enero = '$ 8.500';

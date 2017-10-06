@@ -12,6 +12,14 @@ views/body.view.php: Tiene el contenido de la Web. (Incluye el Modal).
 
 views/footer.view.php: Tiene el footer de la Web.
 
+### Open Graph
+
+* og:title 
+* og:description
+* og:type
+* og:url
+* og:image
+
 ### HTML
 
 Para el manejo de clases dentro del mismo HTML se utiliza la metodología BEM (Bloque-Elemento-Modificador), con la respectiva marca.
@@ -38,4 +46,5 @@ BQSQ.js: SmoothScrolling
 
 ## Autores
 
-* **Andrés Nakanishi**
+* **Andrés Nakanishi - Maquetado y funcionalidad**
+
