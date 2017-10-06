@@ -8,8 +8,8 @@
         <div class="BQSHero-dropdown">
           <button class="BQSHero-dropdown-btn"><img class="BQSHero-dropdown-img" src="img/menu.png" alt="Menu de Hamburguesa"></button>
             <div class="BQSHero-dropdown-content" id="BQSMenu">
-              <a onclick="HideDrop()" href="#Servicios" class="BQSHero-dropdown-link">Servicios</a>
-              <a onclick="HideDrop()" href="#Experiencias" class="BQSHero-dropdown-link">Experiencias</a>
+              <a href="#Servicios" class="BQSHero-dropdown-link">Servicios</a>
+              <a href="#Experiencias" class="BQSHero-dropdown-link">Experiencias</a>
             </div>
           </ul>
         </div>

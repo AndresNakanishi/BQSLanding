@@ -16,6 +16,8 @@
       </div>
     </div>  
   </footer>
+  <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bqs.js"></script>
+  <script type="text/javascript" src="js/bqsq.js"></script>
 </body>
 </html>

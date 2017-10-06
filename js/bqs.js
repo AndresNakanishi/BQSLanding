@@ -16,7 +16,3 @@ function Hide(){
 	$BQSModal.style.animation = 'modalOut .8s forwards';
 	$BQSOverlay.classList.remove('active');
 };
-
-function HideDrop(){
-	$BQSMenu.style.display = 'none';
-}
