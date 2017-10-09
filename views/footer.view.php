@@ -24,5 +24,6 @@
     Sended();
   </script>
   <?php endif; ?>
+  <link rel="stylesheet" href="css/bqs.css">
 </body>
 </html>
