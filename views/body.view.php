@@ -43,7 +43,7 @@
             <input required class="BQSHero-form-inputs" type="text" id="surname" name="surname" placeholder="Apellido">
             <input required class="BQSHero-form-inputs" type="text" id="cellphone" name="cellphone" placeholder="Celular">
             <textarea required class="BQSHero-form-message" rows="3" placeholder="Consulta" id="message" name="message"></textarea>
-            <input class="BQSHero-form-btn" onclick="Sended();" id="submit" name="submit" type="submit" value="Enviar">
+            <input class="BQSHero-form-btn" id="submit" name="submit" type="submit" value="Enviar">
           </form>
         </div>
       </section>

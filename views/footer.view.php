@@ -19,5 +19,10 @@
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bqs.js"></script>
   <script type="text/javascript" src="js/bqsq.js"></script>
+  <?php if($sended == 'true'): ?>
+  <script type="text/javascript">
+    Sended();
+  </script>
+  <?php endif; ?>
 </body>
 </html>

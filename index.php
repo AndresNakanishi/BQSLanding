@@ -13,9 +13,11 @@ $enero = '$ 8.500';
 $febrero = '$ 8.000';
 $weekends = '$ 7.000';
 
+$errors = '';
+$sended = '';
+
 if (isset($_POST['submit'])) {
-	$errors = '';
-	$sended = '';
+
 	$name = $_POST['name'];
 	$surname = $_POST['surname'];
 	$cellphone = $_POST['cellphone'];
